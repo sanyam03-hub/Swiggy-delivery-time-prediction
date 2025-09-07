@@ -1,14 +1,27 @@
-# Swiggy Delivery Time Prediction
+# 🚚 Swiggy Delivery Time Prediction
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![Machine Learning](https://img.shields.io/badge/ML-XGBoost%7CLightGBM%7CRandomForest-green)]()
+[![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red)](https://streamlit.io/)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI-teal)](https://fastapi.tiangolo.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive machine learning project to predict food delivery times for a service like Swiggy, considering multiple factors such as restaurant distance, traffic, weather, and time of day.
 
-## Project Overview
+## 🌟 Live Demo
+
+- **🎯 Interactive Dashboard**: Try the prediction interface
+- **📊 Model Performance**: View comprehensive model comparison
+- **🔍 Batch Predictions**: Upload CSV for bulk predictions
+
+## 📊 Project Overview
 
 This project builds a complete ML pipeline that:
-- Predicts delivery times based on historical data
-- Considers multiple factors: location, traffic, weather, time
-- Provides a web API for real-time predictions
-- Includes an interactive dashboard for visualization
+- 🎯 Predicts delivery times based on historical data
+- 🌡️ Considers multiple factors: location, traffic, weather, time
+- 🚀 Provides a web API for real-time predictions
+- 📊 Includes an interactive dashboard for visualization
+- 📈 Achieves 85%+ R² score with XGBoost model
 
 ## Project Structure
 
@@ -83,7 +96,38 @@ swiggy_project/
 - Data visualization and insights
 - Model performance metrics
 
-## Installation
+## 🚀 Quick Start
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/YOUR_USERNAME/swiggy-delivery-time-prediction.git
+cd swiggy-delivery-time-prediction
+```
+
+2. **Create virtual environment:**
+```bash
+python -m venv venv
+venv\Scripts\activate  # Windows
+# source venv/bin/activate  # Linux/Mac
+```
+
+3. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Generate data and train models:**
+```bash
+python src/data/data_generator.py
+python src/models/simple_trainer.py
+```
+
+5. **Launch the dashboard:**
+```bash
+streamlit run src/dashboard/streamlit_app.py
+```
+
+## 📱 Installation
 
 1. Clone the repository:
 ```bash
@@ -178,22 +222,24 @@ Response:
 }
 ```
 
-## Model Performance
+## 🏆 Model Performance
 
-| Model | MAE (minutes) | RMSE (minutes) | R² Score |
-|-------|---------------|----------------|----------|
-| Linear Regression | 8.2 | 12.1 | 0.75 |
-| Random Forest | 6.8 | 9.9 | 0.82 |
-| XGBoost | 6.1 | 8.7 | 0.85 |
-| LightGBM | 6.3 | 9.1 | 0.84 |
+| Model | MAE (minutes) | RMSE (minutes) | R² Score | Status |
+|-------|---------------|----------------|----------|--------|
+| Linear Regression | 8.2 | 12.1 | 0.75 | ✅ Baseline |
+| Random Forest | 6.8 | 9.9 | 0.82 | ✅ Good |
+| **XGBoost** | **6.1** | **8.7** | **0.85** | 🏆 **Best** |
+| LightGBM | 6.3 | 9.1 | 0.84 | ✅ Excellent |
 
-## Key Features Importance
+> 🎯 **Best Model**: XGBoost achieves **6.1 minutes MAE** with **85% R² score**
 
-1. **Distance** (30%): Euclidean distance between restaurant and customer
-2. **Traffic Density** (25%): Real-time traffic conditions
-3. **Time of Day** (20%): Peak hours vs off-peak hours
-4. **Weather** (15%): Weather conditions affecting delivery
-5. **Restaurant Rating** (10%): Restaurant preparation efficiency
+## 🔑 Key Features Importance
+
+1. 📍 **Distance** (30%): Euclidean distance between restaurant and customer
+2. 🚗 **Traffic Density** (25%): Real-time traffic conditions
+3. 🕰️ **Time of Day** (20%): Peak hours vs off-peak hours
+4. 🌦️ **Weather** (15%): Weather conditions affecting delivery
+5. ⭐ **Restaurant Rating** (10%): Restaurant preparation efficiency
 
 ## Deployment Architecture
 
@@ -228,6 +274,18 @@ Response:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## 📫 Contact
 
-For questions or suggestions, please contact [Your Name] at [your.email@example.com]
+- **GitHub**: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **Email**: your.email@example.com
+
+---
+
+<div align="center">
+
+**🌟 If you found this project helpful, please give it a star! 🌟**
+
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/swiggy-delivery-time-prediction.svg?style=social&label=Star)](https://github.com/YOUR_USERNAME/swiggy-delivery-time-prediction)
+
+</div>
