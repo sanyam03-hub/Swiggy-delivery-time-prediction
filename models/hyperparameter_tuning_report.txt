@@ -1,0 +1,38 @@
+======================================================================
+HYPERPARAMETER TUNING REPORT
+======================================================================
+
+MODEL: Random Forest
+----------------------------------------
+Tuning Method: RANDOM
+Best CV Score: -3.6658
+Tuning Time: 26.45 seconds
+Best Parameters:
+  n_estimators: 100
+  min_samples_split: 2
+  min_samples_leaf: 2
+  max_depth: 15
+
+MODEL: XGBoost
+----------------------------------------
+Tuning Method: RANDOM
+Best CV Score: -2.6741
+Tuning Time: 5.12 seconds
+Best Parameters:
+  subsample: 0.8
+  n_estimators: 200
+  max_depth: 3
+  learning_rate: 0.1
+  colsample_bytree: 0.8
+
+MODEL: LightGBM
+----------------------------------------
+Tuning Method: RANDOM
+Best CV Score: -2.6733
+Tuning Time: 15.38 seconds
+Best Parameters:
+  subsample: 0.8
+  n_estimators: 200
+  max_depth: 3
+  learning_rate: 0.1
+  colsample_bytree: 0.8

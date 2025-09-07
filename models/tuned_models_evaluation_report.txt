@@ -1,0 +1,21 @@
+============================================================
+MODEL PERFORMANCE REPORT
+============================================================
+
+BEST PERFORMING MODEL: XGBoost (Tuned)
+MAE: 2.576 minutes
+RMSE: 3.229 minutes
+R²: 0.942
+MAPE: 6.38%
+
+ALL MODELS COMPARISON:
+----------------------------------------
+XGBoost (Tuned) | MAE: 2.576 | R²: 0.942
+LightGBM (Tuned) | MAE: 2.589 | R²: 0.941
+Random Forest (Tuned) | MAE: 3.525 | R²: 0.888
+
+Metrics explanation:
+- MAE: Mean Absolute Error (lower is better)
+- RMSE: Root Mean Squared Error (lower is better)
+- R²: Coefficient of determination (higher is better)
+- MAPE: Mean Absolute Percentage Error (lower is better)

@@ -1,0 +1,28 @@
+{
+    "include": [
+        "src",
+        "tests",
+        "notebooks"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "**/.*"
+    ],
+    "pythonVersion": "3.13",
+    "pythonPlatform": "Windows",
+    "executionEnvironments": [
+        {
+            "root": "src"
+        }
+    ],
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true,
+    "autoSearchPaths": true,
+    "extraPaths": [
+        "src",
+        "."
+    ],
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": false
+}
