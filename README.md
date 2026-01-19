@@ -276,9 +276,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📫 Contact
 
-- **GitHub**: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **Email**: your.email@example.com
+- **GitHub**: (https://github.com/sanyam03-hub)
+- **LinkedIn**: (https://linkedin.com/in/sanyamjain03)
+- **Email**: sanyamjain2703@example.com
 
 ---
 
